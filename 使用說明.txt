@@ -1,0 +1,13 @@
+使用前:
+1. 確定自己有bybit帳戶並申請了API，已開啟合約交易功能，若無帳號，可用此連結註冊 https://www.bybit.com/invite?ref=JY5GXR
+2. .env 要修改為你自己的bybit API和蜜鑰
+3. 確認bybit已升級為"統一交易帳戶"，並把投資金額要划轉到此處，槓桿自己決定(回測使用1倍槓桿)，會用你當下頁面設定的ETH合約槓桿做交易
+4. 確認requirements.txt內的需求套件已安裝
+# 參考檔案"最佳參數組合.json"有回測績效
+
+使用方式:
+1. 開啟cmd進入此交易程式資料夾，輸入 " python eth_strategy_4h_autotrading.py" 開始執行程式
+2. 按enter會確認開始執行
+
+
+#持續開著cmd視窗才有執行自動交易

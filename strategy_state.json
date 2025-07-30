@@ -1,0 +1,15 @@
+{
+    "position_size": 0.04,
+    "entry_price": 2939.13,
+    "long_entry_price": 2939.13,
+    "long_peak": 2948.09,
+    "long_trail_stop_price": null,
+    "is_long_trail_active": false,
+    "short_entry_price": null,
+    "short_trough": null,
+    "short_trail_stop_price": null,
+    "is_short_trail_active": false,
+    "peak_capital": 199.47500509,
+    "max_drawdown": 0.012768929515007557,
+    "current_capital": 196.92792281
+}
