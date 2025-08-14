@@ -25,7 +25,7 @@ TIMEFRAME = "4h"
 
 # 資金管理設定
 DEFAULT_QTY_PERCENT = 70  # 每次交易使用帳戶可用餘額的百分比
-LEVER = 3
+LEVER = 1 # 如果需要槓桿，從此修改，並在bybitAPP也修改為相同槓桿倍數
 
 # 🏆 最佳策略參數 (2020-2025年優化結果，穩定性評分48.38)
 STRATEGY_PARAMS = {
@@ -1708,3 +1708,4 @@ if __name__ == "__main__":
         time.sleep(2)
 
     run_live_trading()
+
